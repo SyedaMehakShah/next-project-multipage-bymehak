@@ -1,0 +1,46 @@
+.footer {
+    background-color: #fbcfe8; /* Equivalent to bg-pink-200 */
+    color: white; /* Text color for the footer */
+    padding: 2rem 0; /* Equivalent to py-8 */
+}
+
+.footer-container {
+    max-width: 1024px; /* Equivalent to max-w-screen-lg */
+    margin: 0 auto; /* Center the footer content */
+    text-align: center; /* Center align the text */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center the icons */
+    gap: 1rem; /* Space between the icons */
+    margin-bottom: 1rem; /* Space below the icons */
+}
+
+.social-icon {
+    color: #c51f88; /* Equivalent to text-pink-800 */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-icon:hover {
+    color: #db2777; /* Equivalent to hover:text-pink-600 */
+}
+
+.footer-text {
+    color: #c51f88; /* Equivalent to text-pink-800 */
+    font-weight: bold; /* Equivalent to font-bold */
+    font-size: 1.125rem; /* Equivalent to text-lg */
+}
+
+.footer-subtext {
+    color: #c51f88; /* Equivalent to text-pink-800 */
+    margin-top: 0.5rem; /* Equivalent to mt-2 */
+}
+
+.footer-links {
+    margin-top: 1rem; /* Equivalent to mt-4 */
+}
+
+.footer-link {
+    color: #c51f88; 
+}
